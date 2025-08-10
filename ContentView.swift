@@ -33,7 +33,7 @@ class DictionaryViewModel: ObservableObject {
 
     func fetchDefinitions(for word: String) async {
         // Construct the full URL by appending the endpoint and the word
-        let fullURL = "https://od-api-sandbox.oxforddictionaries.com/api/v2/entries/en-us/\(word)"
+        let fullURL = "CAN'T SHOW THIS --> please use your own"
         
         guard let url = URL(string: fullURL) else {
             print("Invalid URL")
@@ -41,8 +41,8 @@ class DictionaryViewModel: ObservableObject {
         }
 
         // Use your actual API credentials here, as shown in your screenshot
-        let apiKey = "6e4048113f6108a50e2736dec94d968a"
-        let appId = "067b921e"
+        let apiKey = "CAN'T SHOW THIS --> please use your own"
+        let appId = "CAN'T SHOW THIS --> please use your own"
 
         var request = URLRequest(url: url)
         
